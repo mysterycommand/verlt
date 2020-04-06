@@ -1,5 +1,7 @@
 {
   "name": "verlt",
+  "description": "A thing, might be dumb",
+  "homepage": "https://mysterycommand.com/verlt",
   "version": "1.0.0",
   "private": true,
   "scripts": {
