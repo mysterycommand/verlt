@@ -30,7 +30,7 @@ export const Canvas: FC = () => {
     contextRef.current.textAlign = 'center';
     contextRef.current.textBaseline = 'middle';
     contextRef.current.fillText('verlt', w / 2, h / 2);
-  }, [w, h, dpr]);
+  }, [w, h]);
 
   return (
     <canvas
