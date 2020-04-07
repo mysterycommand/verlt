@@ -5,6 +5,7 @@ import { resize } from '../../features/browser';
 import { on, off } from '../../lib/events';
 
 import { Canvas } from '../Canvas';
+import { tick } from '../../features/store';
 
 const { requestAnimationFrame: raf, cancelAnimationFrame: caf } = window;
 
@@ -32,7 +33,7 @@ export const App: FC = () => {
         setShouldResize(false);
       }
 
-      // dispatch(tick(t))
+      dispatch(tick());
     };
 
     frameId = raf(onFrame);
