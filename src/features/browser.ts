@@ -24,7 +24,7 @@ export const {
     height,
   },
   reducers: {
-    resize(state) {
+    resize: (state) => {
       const {
         devicePixelRatio: dpr,
         innerWidth: width,
